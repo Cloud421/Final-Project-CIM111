@@ -1,0 +1,65 @@
+html, body {
+  background-image: url("images/bg-texture.png");
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  margin: 0px 4px 8px 0px;
+}
+
+.row {
+  margin-bottom: 48px;
+}
+
+.card {
+  height: 100%;
+}
+
+img.icon {
+  width: 64px;
+  height: 64px;
+}
+
+img.icon.icon-small {
+  width: 32px;
+  height: 32px;
+}
+
+img.icon.icon-large {
+  width: 128px;
+  height: 128px;
+}
+
+img.card-img-top {
+  width: 538px;
+  height: 296px;
+}
+
+@media only screen and (max-width: 768px) {
+  body, section, header, .display-3 {
+    font-size: 120%;
+  }
+
+  img.icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  img.card-img-top {
+    width: 100%;
+    height: 256px;
+  }
+
+  .row {
+    margin-bottom: 0px;
+  }
+  
+  .row .col-12 {
+    margin-bottom: 8px;
+  }
+}
+
+.card .card-body:hover {
+  box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.1);
+}
